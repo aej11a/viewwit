@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		494A3C5626FBAA82000CA7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A3C5526FBAA82000CA7B3 /* AppDelegate.swift */; };
 		494A3C5A26FBAA82000CA7B3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C5826FBAA82000CA7B3 /* Main.html */; };
-		494A3C5C26FBAA82000CA7B3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C5B26FBAA82000CA7B3 /* Icon.png */; };
 		494A3C5E26FBAA82000CA7B3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C5D26FBAA82000CA7B3 /* Style.css */; };
 		494A3C6026FBAA82000CA7B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A3C5F26FBAA82000CA7B3 /* SceneDelegate.swift */; };
 		494A3C6226FBAA82000CA7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A3C6126FBAA82000CA7B3 /* ViewController.swift */; };
@@ -21,11 +20,13 @@
 		494A3C7A26FBAA84000CA7B3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C7926FBAA84000CA7B3 /* images */; };
 		494A3C7C26FBAA84000CA7B3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C7B26FBAA84000CA7B3 /* manifest.json */; };
 		494A3C7E26FBAA84000CA7B3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C7D26FBAA84000CA7B3 /* background.js */; };
-		494A3C8026FBAA84000CA7B3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C7F26FBAA84000CA7B3 /* content.js */; };
 		494A3C8226FBAA84000CA7B3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C8126FBAA84000CA7B3 /* popup.html */; };
 		494A3C8426FBAA84000CA7B3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C8326FBAA84000CA7B3 /* popup.css */; };
 		494A3C8626FBAA84000CA7B3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C8526FBAA84000CA7B3 /* popup.js */; };
 		494A3C8826FBAA84000CA7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494A3C6926FBAA83000CA7B3 /* Assets.xcassets */; };
+		49E958FF26FBB3E3003C578D /* extensionContent.js in Resources */ = {isa = PBXBuildFile; fileRef = 49E958FE26FBB3E3003C578D /* extensionContent.js */; };
+		49E9590126FC3B6C003C578D /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9590026FC3B6C003C578D /* icon-128.png */; };
+		49E9590326FC3BF6003C578D /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9590226FC3BF6003C578D /* icon-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,6 @@
 		494A3C5226FBAA82000CA7B3 /* Viewit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viewit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494A3C5526FBAA82000CA7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494A3C5926FBAA82000CA7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		494A3C5B26FBAA82000CA7B3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		494A3C5D26FBAA82000CA7B3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		494A3C5F26FBAA82000CA7B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		494A3C6126FBAA82000CA7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +70,13 @@
 		494A3C7926FBAA84000CA7B3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		494A3C7B26FBAA84000CA7B3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		494A3C7D26FBAA84000CA7B3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		494A3C7F26FBAA84000CA7B3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		494A3C8126FBAA84000CA7B3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		494A3C8326FBAA84000CA7B3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		494A3C8526FBAA84000CA7B3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		494A3C8726FBAA84000CA7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E958FE26FBB3E3003C578D /* extensionContent.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = extensionContent.js; sourceTree = "<group>"; };
+		49E9590026FC3B6C003C578D /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
+		49E9590226FC3BF6003C578D /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +133,9 @@
 		494A3C5726FBAA82000CA7B3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				49E9590226FC3BF6003C578D /* icon-512.png */,
+				49E9590026FC3B6C003C578D /* icon-128.png */,
 				494A3C5826FBAA82000CA7B3 /* Main.html */,
-				494A3C5B26FBAA82000CA7B3 /* Icon.png */,
 				494A3C5D26FBAA82000CA7B3 /* Style.css */,
 			);
 			path = Resources;
@@ -155,10 +158,10 @@
 				494A3C7926FBAA84000CA7B3 /* images */,
 				494A3C7B26FBAA84000CA7B3 /* manifest.json */,
 				494A3C7D26FBAA84000CA7B3 /* background.js */,
-				494A3C7F26FBAA84000CA7B3 /* content.js */,
 				494A3C8126FBAA84000CA7B3 /* popup.html */,
 				494A3C8326FBAA84000CA7B3 /* popup.css */,
 				494A3C8526FBAA84000CA7B3 /* popup.js */,
+				49E958FE26FBB3E3003C578D /* extensionContent.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -244,11 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494A3C5C26FBAA82000CA7B3 /* Icon.png in Resources */,
 				494A3C6826FBAA82000CA7B3 /* Main.storyboard in Resources */,
 				494A3C6526FBAA82000CA7B3 /* LaunchScreen.storyboard in Resources */,
+				49E9590126FC3B6C003C578D /* icon-128.png in Resources */,
 				494A3C5A26FBAA82000CA7B3 /* Main.html in Resources */,
 				494A3C8826FBAA84000CA7B3 /* Assets.xcassets in Resources */,
+				49E9590326FC3BF6003C578D /* icon-512.png in Resources */,
 				494A3C5E26FBAA82000CA7B3 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +267,8 @@
 				494A3C7A26FBAA84000CA7B3 /* images in Resources */,
 				494A3C7C26FBAA84000CA7B3 /* manifest.json in Resources */,
 				494A3C7826FBAA83000CA7B3 /* _locales in Resources */,
-				494A3C8026FBAA84000CA7B3 /* content.js in Resources */,
 				494A3C8626FBAA84000CA7B3 /* popup.js in Resources */,
+				49E958FF26FBB3E3003C578D /* extensionContent.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +455,7 @@
 				DEVELOPMENT_TEAM = TKS8AK9GNC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Viewit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Viewit Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Viewwit Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +468,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewit.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewwit.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -481,7 +485,7 @@
 				DEVELOPMENT_TEAM = TKS8AK9GNC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Viewit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Viewit Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Viewwit Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,7 +498,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewit.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewwit.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -509,12 +513,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKS8AK9GNC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viewit/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Viewit;
+				INFOPLIST_KEY_CFBundleDisplayName = Viewwit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -532,7 +537,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewwit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -546,12 +551,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKS8AK9GNC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viewit/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Viewit;
+				INFOPLIST_KEY_CFBundleDisplayName = Viewwit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -569,7 +575,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aej11.Viewwit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

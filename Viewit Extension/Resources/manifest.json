@@ -2,8 +2,8 @@
     "manifest_version": 2,
     "default_locale": "en",
 
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "name": "Viewwit",
+    "description": "Prevent blocking popups from Reddit, enabling viewing on mobile",
     "version": "1.0",
 
     "icons": {
@@ -14,14 +14,10 @@
         "512": "images/icon-512.png"
     },
 
-    "background": {
-        "scripts": [ "background.js" ],
-        "persistent": false
-    },
-
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "js": [ "extensionContent.js" ],
+        "matches": [ "*://*.reddit.com/*" ],
+        "run_at": "document_start"
     }],
 
     "browser_action": {
@@ -34,5 +30,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "*://reddit.com/*" ]
 }

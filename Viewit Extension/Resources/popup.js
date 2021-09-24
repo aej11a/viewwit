@@ -1,1 +1,1 @@
-console.log("Hello World!", browser);
+// No JS needed in popup now
