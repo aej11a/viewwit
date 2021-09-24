@@ -1,18 +1,3 @@
-//window.onload = () => {console.log("test")}
-//document.addEventListener("DOMContentLoaded", () => console.log("domcontentloaded"));
-//if (document.readyState === "complete")
-//{
-//console.log("is working 1")
-//}
-//else
-//{
-//window['onload'] = function () {
-//    console.log("is working 2")
-//    const el = document.querySelector(".XPromoPill")
-//    console.log({el: el})
-//}
-//}
-
 const redditViewer = () => {
     const looksBetterBanner = document.querySelector(".XPromoPill")
     if(looksBetterBanner) looksBetterBanner.parentNode.removeChild(looksBetterBanner)
@@ -21,7 +6,7 @@ const redditViewer = () => {
     if(seeCommunityIn) seeCommunityIn.parentNode.removeChild(seeCommunityIn)
         
     const promoButton = document.querySelector(".TopNav__promoButton")
-        // We won't remove the top button for now
+    // We won't remove the top button for now, so people can still choose to open in app
     //if(promoButton) promoButton.parentNode.removeChild(promoButton)
         
     const promoInFeed = document.querySelector(".XPromoInFeed")
